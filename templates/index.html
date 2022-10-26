@@ -1,0 +1,65 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="static/style.css" />
+   <script src="static/js/jquery.min.js"></script>
+</head>
+
+<body onresize="windowResized()">
+  <h1 class='title'> Book Ranking and Category Detection</h1>
+  <div id="container">
+  <div id="wrapper">
+    <div class="left" style="display: block;">
+      <!-- 文字描述指引 -->
+      <!-- <img src="static/images/Word.png" id="word"> -->
+
+      <p style="text-align:justify" id="Instruction">
+      Instruction: You can upload a cover image of the book through the upload button 
+      or directly drag the image into this page to get the popularity and rough category 
+      prediction. You can type the book name(description) into the text box to receive the 
+      book category prediction.
+      </p>
+      <p style="text-align:justify" id="Important">
+      Most importantly, you can do either or both.
+      </p><br/>
+      <!-- <br/><br/> -->
+      <p style="text-align:justify" id="RankingDes">
+        The output of the ranking prediction function is a  tier number from 1-5 which 
+        indicates the predicted popularity of the input book cover. The rage has been 
+        divided into 5 tiers, the smaller the number is, the more popular the model 
+        thinks the book will be.
+      </p>
+      <br/>
+      <span id="BookName">Book Name:</span>
+      <input type="text" id="bookNameInput"><br/>
+      <button id="Submit-btn" value="submit">Submit</button>
+      <br/><br/>
+      <div id="response"></div><br/>
+      <div id="response2"> </div>
+    </div>
+    <div class="right" id="sample" style="display: block;">
+      <!-- 图片区域 -->
+      <div id="text-container">
+        <!-- <div class="img-btn" style="text-align:center"> -->
+          <img src="static/images/HP.jpg" id="image" display: inline-block;
+          vertical-align: middle;>
+          <br/><br/>
+          <button id="uploader-btn" onClick="clickUploader()" style="text-align:center">
+            Upload image, or drag an image
+          </button>
+          <div id="response3"></div><br>
+          <div id="response4"> </div><br/>
+        <!-- </div> -->
+        <br/>
+        <p id="warning" class="result-color"></p>
+        <input name="imgFile" type="file" id="fileUploader" accept="image/*" onChange="handleFiles()">
+      </div>
+    </div>
+  </div>
+    <!-- <img src="static/images/HP.jpg" id="image" class="center"> -->
+    
+    <canvas id="canvas"></canvas>
+  </div>
+  <script src="static/js/index.js"></script>
+</body>
+</html>

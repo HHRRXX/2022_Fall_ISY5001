@@ -1,0 +1,75 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="static/style.css" />
+   <script src="static/js/jquery.min.js"></script>
+</head>
+
+<body onresize="windowResized()">
+  <div id="container">
+    <div id="wrapper">
+      <div class="item left" id="instruction">
+        Instruction: You can upload a cover image of the book <br>
+        through the upload button or directly drag the image <br>
+        into this page to get the popularity and rough category <br>
+        prediction. You can type the book name(description) <br>
+        into the text box to receive the book category prediction. <br><br>
+        Most importantly, you can do either or both of them.
+        <br> <br> <br> <br>
+        <br>
+        The output of ranking prediction function is a  <br>
+        tier numbr from 1-5 which indicates the predicted <br>
+        popularity if input book cover, the popularity has <br>
+        been divided into 5 tiers, the smaller the number is,<br>
+         the more popular the model thinks the book will be.
+      </div>
+    </div>
+    
+    </div>
+
+</body>
+</html>
+
+<style>
+  #container {
+  background: #c79ef812;
+  /* height: 500px; */
+  padding: 20px;
+  font-size: 14px;
+  border-radius: 33px;
+  text-align: center;
+}
+    .wrap {
+      width: 100%;
+      /* border: 1px solid red; */
+      display: flex;
+    }
+    .left {
+      width: 400px;
+      /* border: 1px solid red; */
+    }
+    .b1 {
+      width: 100%;
+      height: 200px;
+      /* border: 1px solid black; */
+    }
+    .b2 {
+      width: 100%;
+      height: 50px;
+      /* border: 1px solid black; */
+    }
+    .item3 {
+      width: 100%;
+      height: 80px;
+      border: 1px solid black;
+    }
+    .right {
+      flex: 1;
+      height: auto;
+      /* border: 1px solid red; */
+      display: flex;
+    }
+    .center {
+      flex: 1;
+    }
+  </style>

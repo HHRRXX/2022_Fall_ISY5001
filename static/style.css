@@ -1,0 +1,164 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Apercu;
+}
+
+.left {
+  float: left;
+  width: 25%;
+  margin-left: 10%;
+  height: 300px;
+}
+.right {
+  margin-left: 310px;
+  height: 300px;
+}
+
+#Instruction{
+  color: #c45b5b;
+  font-size: 20px;
+}
+
+#Important{
+  color: red;
+  font-size: 22px;
+}
+
+#RankingDes{
+  color: #c45b5b;
+  font-size: 20px;
+}
+
+.title {
+  padding-top:40px;
+  text-align: center;
+  font-size: 40px;
+  font-family: Apercu;
+  text-decoration:underline
+}
+
+#image{
+  height: 700px;
+  width: 504px;
+}
+
+#covers{
+  height: 620px;
+  width: 372px;
+}
+
+#container {
+  /* background: #c79ef812;
+  overflow:hidden; */
+  height: 100%;
+  padding-top: 20px;
+  border-radius: 33px;
+  text-align: center;
+}
+
+#text-container {
+  margin-left: 20%;
+  width: 70%;
+  text-align: center;
+}
+
+#bookNameInput{
+  width: auto;
+  height: 40px;
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: .6em .8em;
+  font-size: 26px;
+  font-family: Apercu;
+}
+
+#BookName{
+  font-size: 28px;
+}
+
+#response{
+  color: red;
+  font-size: 28px;
+}
+
+#response2{
+  color: #c45b5b;
+  font-size: 34px;
+}
+#response3{
+  color: red;
+  font-size: 28px;
+}
+
+#response4{
+  color: #c45b5b;
+  font-size: 34px;
+}
+
+#instruction {
+  margin-top: 20px;
+}
+
+.result-color {
+  padding-top: 10px;
+  color: #A159FC;
+}
+
+
+.highlight {
+  opacity: 0.4;
+  background-color: rgba(161,89,252, 0.2);
+}
+
+#fileUploader {
+  opacity: 0;
+}
+
+#Submit-btn{
+  /* margin-top: 50px; */
+  background: #faebd700;
+  margin-top: 20px;
+  color: #cf0b0b;
+  border: solid 1px #cf0b0b;
+  padding: .6em 2em;
+  line-height: 1;
+  font-size: 20px;
+  font-family: Apercu;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#Submit-btn:hover {
+  color: white;
+  background-color: #cf0b0d;
+  border: solid 1px #cf0b0d;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#uploader-btn {
+  background: #faebd700;
+  margin-top: 10px;
+  color: #0bcf81;
+  border: solid 1px #0bcf81;
+  padding: .6em 2em;
+  line-height: 1;
+  font-size: 20px;
+  font-family: Apercu;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#uploader-btn:hover {
+  color: white;
+  background-color: #0bcf82;
+  border: solid 1px #0bcf82;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
