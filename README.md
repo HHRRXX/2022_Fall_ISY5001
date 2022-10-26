@@ -30,7 +30,7 @@
 ## SECTION 4 : PROJECT REPORT / PAPER
 `Please refer to Project_Report.pdf`
 
-`<File Link>` : <https://github.com/HHRRXX/2022_Fall_ISY5001/blob/main/Project_Report.pdf>
+`<File Link>` : <https://github.com/HHRRXX/2022_Fall_ISY5001/blob/main/ISY5001_Project_Report.pdf>
 
 ---
 
