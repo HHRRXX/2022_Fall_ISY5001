@@ -1,4 +1,4 @@
-# 2022_Fall_ISY5001 GROUP1 Book Ranking and Category Detection
+# 2022_Fall_ISY5001 GROUP1 Project: Book Ranking and Category Detection
 
 ## SECTION 1 : Book cover example
 
