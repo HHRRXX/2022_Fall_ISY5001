@@ -10,9 +10,9 @@
 ## SECTION 2 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 `Please refer to the video at Github Folder: video instruction`
 
-`<Folder Link>` : <https://github.com/HHRRXX/2022_Fall_ISY5001/tree/main/video%20instruction>
-`Video of System Demo`: https://github.com/HHRRXX/2022_Fall_ISY5001/blob/main/video%20instruction/Demo_Vedio.mp4
-`Video of System Instruction`: https://github.com/HHRRXX/2022_Fall_ISY5001/blob/main/video%20instruction/Project_Introduction.mp4
+`<Folder Link>` : <https://github.com/HHRRXX/2022_Fall_ISY5001/tree/main/video%20instruction>  
+`Video of System Demo`: https://github.com/HHRRXX/2022_Fall_ISY5001/blob/main/video%20instruction/Demo_Vedio.mp4  
+`Video of System Instruction`: https://github.com/HHRRXX/2022_Fall_ISY5001/blob/main/video%20instruction/Project_Introduction.mp4  
 
 ---
 
