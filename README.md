@@ -20,7 +20,7 @@
 
 - Steps on running of the system demo
 
-    Run `flask run` in the terminal
+    Run `flask run` in the terminal  
     Copy the local URL to your web browser
 
 ---
