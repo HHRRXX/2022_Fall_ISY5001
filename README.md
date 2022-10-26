@@ -16,12 +16,12 @@
 ## SECTION 3 : USER GUIDE
 - System Requirements and Dependencies  
 
-Run `pip install -r requirements.txt` in the terminal
+    Run `pip install -r requirements.txt` in the terminal
 
 - Steps on running of the system demo
 
-Run `flask run` in the terminal
-Copy the local URL to your web browser
+    Run `flask run` in the terminal
+    Copy the local URL to your web browser
 
 ---
 ## SECTION 4 : PROJECT REPORT / PAPER
