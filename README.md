@@ -1,7 +1,6 @@
-# 2022_Fall_ISY5001 Book Ranking and Category Detection
+# 2022_Fall_ISY5001 GROUP1 Book Ranking and Category Detection
 
-## SECTION 1 : IRS-PM-ISY5001-2020-01-18-GROUP1-Book Ranking and Category Detection
-## Book cover example
+## SECTION 1 : Book cover example
 
 <img src="static/images/HP.jpg"
      style="float: left; margin-right: 0px;" />
