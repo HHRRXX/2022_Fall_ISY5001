@@ -6,7 +6,21 @@
      style="float: left; margin-right: 0px;" />
 
 ---  
-
+## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
+Book genre classification is one of the popular sections among all NLP areas back in time, and it is widely used
+in many situations such as libraries, book donation charities, or even simply data-mining programs. There are
+basically three ways of determining the genre of a selected book.
+• Classification with Titles
+• Classification with Contents
+• Classification with Covers
+Do note that the classification with covers can be divided into two sub-classes which are text recognition
+which ultimately belongs to Natural Language Processing area and Image Classification which belongs to the
+Computer Vision area.
+On the premise that the current book classification system has been able to effectively classify books according
+to book information, our goal is to develop a system that can use limited data to classify books as accurately
+as possible and achieve our goals at a relatively faster speed. The system should also be able to read the
+cover of the book and ’grade’ the book with its cover on scale from 0-4, the score implies the possible degree
+of popularity of the input book.
 ## SECTION 2 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 `Please refer to the video at Github Folder: video instruction`
 
